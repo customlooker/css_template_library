@@ -1,0 +1,124 @@
+#tooltip {
+    position: absolute;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    background-color: navy; /* Set the background color to navy */
+    color: white; /* Set the text color to white */
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+    font-family: sans-serif;
+    font-size: 12px;
+    z-index: 2;
+  
+    /* Add other existing customizations here  */
+}
+
+#tooltip.hidden {
+    display: none;
+  
+    /* Add other existing customizations here  */
+}
+
+#tooltip p {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+  
+    /* Add other existing customizations here  */
+}
+
+.reportTable {
+    font-family: Open Sans, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    border: 2px solid #023059;
+    border-collapse: collapse;
+    border-spacing: 3px;
+  
+    /* Add other existing customizations here  */
+}
+
+.reportTable th {
+    color: 	#FFFFFF;
+    border: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc !important;
+    /* font-size: 10px;  */
+    /* height: 25px; */
+    padding: 5px;
+
+}
+    h1, h2, h3, h4, h5, h6 {
+    color: #FFFFFF; /* White color in hex */
+}
+  
+    /* Add other existing customizations here  */
+    
+.reportTable td {
+    color: #000000;
+    vertical-align: super;
+    padding: 5px;
+    /*background: #FFFFFF;*/
+    border: 1px solid #cccccc;
+    border-collapse: collapse;
+  
+    /* Add other existing customizations here  */
+}
+
+.left {
+    text-align: left;
+  
+    /* Add other existing customizations here  */
+}
+
+.right {
+    text-align: right !important;
+  
+    /* Add other existing customizations here  */
+}
+
+.indent {
+    padding-left: 15px !important;
+  
+    /* Add other existing customizations here  */
+}
+
+.subtotal {
+    font-style: italic;
+    font-weight: bold;
+    background: #d3d3d3;
+  
+    /* Add other existing customizations here  */
+}
+
+caption {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: left;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+
+thead {
+  background-color: #023059;
+  color: #FFFFFF;
+}
+
+.total {
+    border-top: 2px solid #000000 !important;
+    font-weight: bold !important;
+  
+    /* Add other existing customizations here  */
+}
+
+.total.transposed {
+    border-top: 0px !important;
+    background: #d3d3d3;
+  
+    /* Add other existing customizations here  */
+}
